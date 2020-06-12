@@ -13,5 +13,8 @@ UCLASS()
 class UE4BOOK_API AUE4BookGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+
+public:
+	virtual void BeginPlay() override;
+
 };

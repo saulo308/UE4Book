@@ -3,3 +3,8 @@
 
 #include "UE4BookGameModeBase.h"
 
+
+void AUE4BookGameModeBase::BeginPlay(){
+    Super::BeginPlay();
+
+}
